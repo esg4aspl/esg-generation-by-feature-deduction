@@ -39,5 +39,8 @@ There are 8 different full products of this SPL due to the features that are con
 | fullProduct\_QRCodeEmail       | 45          | 84          |
 | fullProduct\_QRCodeSMS         | 45          | 84          |
 
-The feature dependency tree of this SPL is shown below. The features addNewClass, addNewSchedule, deleteClass and, updateRecord depend on the feature teacherAccess; the features viewRecord and  monitorAttendanceStatus depend on the feature studentAccess; and the feature traceAttendanceActivity depends on updateRecord.
+The feature dependency tree of this SPL is shown below. The features addNewClass, addNewSchedule, deleteClass and, updateRecord depend on the feature teacherAccess; the features viewRecord and  monitorAttendanceStatus depend on the feature studentAccess; and the feature traceAttendanceActivity depends on updateRecord. Additionally, while the feature updateClassDetail depends on the features addNewClass and teacherAccess; the feature editSchedule depends on the features addNewSchedule and teacherAccess. Finally, the feature assignNewSchedule depends on the features addNewSchedule, updateClassDetail and, editSchedule. 
+
 ![FeatureDependencyTree](https://github.com/esg4aspl/esg-generation-by-feature-deduction/blob/main/StudentAttendanceSystemSPL/FeatureDependencyTree.png)
+
+
