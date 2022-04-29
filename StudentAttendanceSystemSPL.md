@@ -26,6 +26,8 @@ Student Attendance System SPL has 20 features. The feature model, the core ESG m
 | editSchedule            | 7           | 11          |
 | assignNewSchedule       | 6           | 6           |
 
+[Click for the PDF version of the table](https://github.com/esg4aspl/esg-generation-by-feature-deduction/blob/main/StudentAttendanceSystemSPL/FeatureData.pdf)
+
 There are 8 different full products of this SPL due to the features that are connected with XOR. The number of nodes and the number of edges belonging to the 8 full products are given in the table below. 
 
 | Full Product                   | Number of Nodes | Number of Edges |
@@ -38,6 +40,8 @@ There are 8 different full products of this SPL due to the features that are con
 | fullProduct\_fingerprintSMS    | 45          | 84          |
 | fullProduct\_QRCodeEmail       | 45          | 84          |
 | fullProduct\_QRCodeSMS         | 45          | 84          |
+
+[Click for the PDF version of the table](https://github.com/esg4aspl/esg-generation-by-feature-deduction/blob/main/StudentAttendanceSystemSPL/FullProductData.pdf)
 
 The feature dependency tree of this SPL is shown below. The features addNewClass, addNewSchedule, deleteClass and, updateRecord depend on the feature teacherAccess; the features viewRecord and  monitorAttendanceStatus depend on the feature studentAccess; and the feature traceAttendanceActivity depends on updateRecord. Additionally, while the feature updateClassDetail depends on the features addNewClass and teacherAccess; the feature editSchedule depends on the features addNewSchedule and teacherAccess. Finally, the feature assignNewSchedule depends on the features addNewSchedule, updateClassDetail and, editSchedule. 
 
@@ -62,6 +66,8 @@ In the first experiment set of this study, the features are deduced from the ful
 | viewClass               | 12.67                        | 12.44                      | 12.16                     | 11.66                    | 11.18                     | 11.38                   | 11.65                     | 11.45                   |
 | viewRecord              | 12.92                        | 10.96                      | 11.42                     | 11.08                    | 11.61                     | 11.69                   | 11.65                     | 11.69                   |
 | viewSchedule            | 12.63                        | 11.14                      | 10.87                     | 11.14                    | 11.11                     | 11.28                   | 11.94                     | 12.49                   |
+
+[Click for the PDF version of the table](https://github.com/esg4aspl/esg-generation-by-feature-deduction/blob/main/StudentAttendanceSystemSPL/OneFeatureDeduction.pdf)
 
 ## Deducing Features from Full Product to Have a Defined Product Configuration
 
@@ -91,3 +97,5 @@ In the second experiment set of this study, 8 different base product are defined
 | deleteClass,updateRecord,monitorAttendanceStatus,updateClassDetail,traceAttendanceActivity,assignNewSchedule         | 14.53                        | 12.84                      | 12.76                     | 13.31                    | 12.45                     | 12.48                   | 12.27                     | 13.36                   |
 | deleteClass,updateRecord,updateClassDetail,editSchedule,traceAttendanceActivity,assignNewSchedule                    | 14.88                        | 13.88                      | 13.34                     | 12.37                    | 13.56                     | 13.07                   | 12.99                     | 13.61                   |
 | updateRecord,monitorAttendanceStatus,updateClassDetail,editSchedule,traceAttendanceActivity,assignNewSchedule        | 14.11                        | 13.01                      | 12.97                     | 12.62                    | 12.7                      | 12.27                   | 13.1                      | 12.48                   |
+
+[Click for the PDF version of the table](https://github.com/esg4aspl/esg-generation-by-feature-deduction/blob/main/StudentAttendanceSystemSPL/FeatureSetDeduction.pdf)
