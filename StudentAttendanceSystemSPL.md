@@ -2,7 +2,7 @@
 
 Student Attendance System SPL has 20 features. The feature model, the core ESG model and, f-ESG models of this SPL are given [here](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/StudentAttendanceSystemSPL.md). There are 2664 different product configurations belonging to this SPL. The number of nodes and the number of edges belonging to the c-ESG and the f-ESGs are given in the table below. 
 
-| Feature                 | \Number of Nodes | \Number of Edges |
+| Feature                 | Number of Nodes | Number of Edges |
 | ----------------------- | ----------- | ----------- |
 | core                    | 7           | 5           |
 | studentAccess           | 6           | 6           |
@@ -28,7 +28,7 @@ Student Attendance System SPL has 20 features. The feature model, the core ESG m
 
 There are 8 different full products of this SPL due to the features that are connected with XOR. The number of nodes and the number of edges belonging to the 8 full products are given in the table below. 
 
-| Full Product                   | \# of Nodes | \# of Edges |
+| Full Product                   | Number of Nodes | Number of Edges |
 | ------------------------------ | ----------- | ----------- |
 | fullProduct\_accessCardEmail   | 45          | 84          |
 | fullProduct\_accessCardSMS     | 45          | 84          |
