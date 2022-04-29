@@ -39,4 +39,5 @@ There are 8 different full products of this SPL due to the features that are con
 | fullProduct\_QRCodeEmail       | 45          | 84          |
 | fullProduct\_QRCodeSMS         | 45          | 84          |
 
-
+The feature dependency tree is shown below. 
+![FeatureDependencyTree](https://github.com/esg4aspl/esg-generation-by-feature-deduction/blob/main/StudentAttendanceSystemSPL/FeatureDependencyTree.png)
