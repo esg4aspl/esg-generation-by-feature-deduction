@@ -1,6 +1,10 @@
 # Generating Different Product Configurations by Deducting Features from the Full Product(s) of Bank Account SPL
 
-Bank Account SPL has 9 features. The feature model, the core ESG model and, f-ESG models of this SPL are given [here](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccountSPL.md). There are 42 different product configurations belonging to this SPL. The number of nodes and the number of edges belonging to the c-ESG and the f-ESGs are given in the table below. 
+Bank Account SPL has 9 features. The feature model given below is modified from, the core ESG model and, f-ESG models of this SPL are given [here](https://github.com/esg4aspl/SPL-FESG-Examples/blob/master/BankAccountSPL.md). There are 81 different product configurations belonging to this SPL.
+
+![Feature Model](https://github.com/esg4aspl/esg-generation-by-feature-deduction/blob/main/BankAccountSPL/Feature%20Model.PNG)
+
+The number of nodes and the number of edges belonging to the c-ESG and the f-ESGs are given in the table below. 
 
 | Feature            | Number of Nodes | Number of Edges |
 | ------------------ | --------------- | --------------- |
