@@ -58,36 +58,36 @@ In the second experiment set of this study for Bank Account SPL, a base product 
 
 | Features to-be Deduced                            | fullProduct\_overdraft |
 | ------------------------------------------------- | ---------------------- |
-| cancelDeposit, cancelWithdraw, interestEstimation | 10                     |
+| cancelDeposit, cancelWithdraw, interestEstimation | 10.00                  |
 | cancelDeposit, cancelWithdraw, overdraft          | 9.49                   |
 | cancelDeposit, dailyLimit, overdraft              | 7.31                   |
 | cancelDeposit, interest, interestEstimation       | 8.21                   |
 | cancelDeposit, interestEstimation, overdraft      | 8.08                   |
-| cancelDeposit, cancelWithdraw, dailyLimit         | 7.879                  |
-| cancelDeposit, interestEstimation, dailyLimit     | 8.188                  |
+| cancelDeposit, cancelWithdraw, dailyLimit         | 7.88                   |
+| cancelDeposit, interestEstimation, dailyLimit     | 8.19                   |
 | cancelWithdraw, dailyLimit, overdraft             | 7.84                   |
 | cancelWithdraw, interest, interestEstimation      | 11.85                  |
 | cancelWithdraw, interestEstimation, overdraft     | 10.67                  |
-| cancelWithdraw, interestEstimation, dailyLimit    | 8.035                  |
-| interest, interestEstimation, overdraft           | 8.1                    |
+| cancelWithdraw, interestEstimation, dailyLimit    | 8.04                   |
+| interest, interestEstimation, overdraft           | 8.10                   |
 | interestEstimation, dailyLimit,overdraft          | 7.55                   |
-| interest, interestEstimation, dailyLimit          | 8.054                  |
+| interest, interestEstimation, dailyLimit          | 8.05                   |
 
 | Features to-be Deduced                            | fullProduct,\_credit |
 | ------------------------------------------------- | -------------------- |
-| cancelDeposit, cancelWithdraw, credit             | 7.825                |
-| cancelDeposit, cancelWithdraw, dailyLimit         | 7.366                |
+| cancelDeposit, cancelWithdraw, credit             | 7.83                 |
+| cancelDeposit, cancelWithdraw, dailyLimit         | 7.37                 |
 | cancelDeposit, cancelWithdraw, interestEstimation | 9.81                 |
-| cancelDeposit, credit, dailyLimit                 | 7.939                |
-| cancelDeposit, credit, interestEstimation         | 7.532                |
-| cancelDeposit, interest, interestEstimation       | 9.789                |
-| cancelDeposit,interestEstimation, dailyLimit      | 7.818                |
-| cancelWithdraw, credit, dailyLimit                | 6.761                |
-| cancelWithdraw, credit, interestEstimation        | 8.088                |
-| cancelWithdraw, interest, interestEstimation      | 7.498                |
-| cancelWithdraw, interestEstimation, dailyLimit    | 6.367                |
-| credit, interest, interestEstimation              | 6.007                |
-| credit, interestEstimation, dailyLimit            | 5.805                |
-| interest, interestEstimation, dailyLimit          | 5.766                |
+| cancelDeposit, credit, dailyLimit                 | 7.94                 |
+| cancelDeposit, credit, interestEstimation         | 7.53                 |
+| cancelDeposit, interest, interestEstimation       | 9.79                 |
+| cancelDeposit,interestEstimation, dailyLimit      | 7.82                 |
+| cancelWithdraw, credit, dailyLimit                | 6.76                 |
+| cancelWithdraw, credit, interestEstimation        | 8.09                 |
+| cancelWithdraw, interest, interestEstimation      | 7.50                 |
+| cancelWithdraw, interestEstimation, dailyLimit    | 6.37                 |
+| credit, interest, interestEstimation              | 6.01                 |
+| credit, interestEstimation, dailyLimit            | 5.81                 |
+| interest, interestEstimation, dailyLimit          | 5.77                 |
 
 [Click for the PDF version of the tables](https://github.com/esg4aspl/esg-generation-by-feature-deduction/blob/main/BankAccountSPL/FeatureSetDeduction.pdf)
