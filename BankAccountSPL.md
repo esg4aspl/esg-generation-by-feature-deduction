@@ -63,20 +63,31 @@ In the second experiment set of this study for Bank Account SPL, a base product 
 | cancelDeposit, dailyLimit, overdraft              | 7.31                   |
 | cancelDeposit, interest, interestEstimation       | 8.21                   |
 | cancelDeposit, interestEstimation, overdraft      | 8.08                   |
+| cancelDeposit, cancelWithdraw, dailyLimit         | 7.879                  |
+| cancelDeposit, interestEstimation, dailyLimit     | 8.188                  |
 | cancelWithdraw, dailyLimit, overdraft             | 7.84                   |
 | cancelWithdraw, interest, interestEstimation      | 11.85                  |
 | cancelWithdraw, interestEstimation, overdraft     | 10.67                  |
+| cancelWithdraw, interestEstimation, dailyLimit    | 8.035                  |
 | interest, interestEstimation, overdraft           | 8.1                    |
 | interestEstimation, dailyLimit,overdraft          | 7.55                   |
+| interest, interestEstimation, dailyLimit          | 8.054                  |
 
-| Features to-be Deduced                            | fullProduct\_credit |
-| ------------------------------------------------- | ------------------- |
-| cancelDeposit, cancelWithdraw, credit             | 13.999              |
-| cancelDeposit, cancelWithdraw, dailyLimit         | 7.366               |
-| cancelDeposit, cancelWithdraw, interestEstimation | 9.81                |
-| cancelDeposit, credit, dailyLimit                 | 7.939               |
-| cancelDeposit, credit, interestEstimation         | 7.532               |
-| cancelDeposit, interest, interestEstimation       | 9.789               |
-| cancelDeposit,interestEstimation, dailyLimit      | 7.818               |
+| Features to-be Deduced                            | fullProduct,\_credit |
+| ------------------------------------------------- | -------------------- |
+| cancelDeposit, cancelWithdraw, credit             | 7.825                |
+| cancelDeposit, cancelWithdraw, dailyLimit         | 7.366                |
+| cancelDeposit, cancelWithdraw, interestEstimation | 9.81                 |
+| cancelDeposit, credit, dailyLimit                 | 7.939                |
+| cancelDeposit, credit, interestEstimation         | 7.532                |
+| cancelDeposit, interest, interestEstimation       | 9.789                |
+| cancelDeposit,interestEstimation, dailyLimit      | 7.818                |
+| cancelWithdraw, credit, dailyLimit                | 6.761                |
+| cancelWithdraw, credit, interestEstimation        | 8.088                |
+| cancelWithdraw, interest, interestEstimation      | 7.498                |
+| cancelWithdraw, interestEstimation, dailyLimit    | 6.367                |
+| credit, interest, interestEstimation              | 6.007                |
+| credit, interestEstimation, dailyLimit            | 5.805                |
+| interest, interestEstimation, dailyLimit          | 5.766                |
 
 [Click for the PDF version of the tables](https://github.com/esg4aspl/esg-generation-by-feature-deduction/blob/main/BankAccountSPL/FeatureSetDeduction.pdf)
